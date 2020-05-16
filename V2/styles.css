@@ -123,14 +123,11 @@ img{
 /*M2LO14 Demonstrate and explain the use of
 progressive enhancement in CSS (CSS, see 2-6 Employing Progressive Enhancement)*/
 /* Visited Link */
-nav:visited {
-    color: rgb(0,0,0);
-}
+
 /*•	M2LO11 Demonstrate a pseudo-classes and a pseudo-element selector (CSS, specify 2 times,
   show one pseudo-class and one pseudo-element, see 2-18 Using Pseudo-Classes and Pseudo-Elements)*/
 
-
-/*navigation*/
+/*horizontal navigation*/
 nav{
   float: left;
 }
@@ -140,15 +137,6 @@ nav.ul{
     padding-top: 0;
     margin: 0;
 }
-nav li{
-  display: inline-block;
-  margin-left: 135px;
-  padding-top: 30px;
-}
-nav ol{
-    color:white;
-    font:15px;
-}
 nav a{
   text-decoration: none ;
   text-transform: uppercase;
@@ -157,3 +145,18 @@ nav a{
 nav a:hover{
   color: rgb(128, 27, 5);
 }
+nav li{
+  display: inline-block;
+  margin-left: 135px;
+  padding-top: 30px;
+}
+nav:visited {
+  color: rgb(0,0,0);
+}
+/*navigation*/
+
+nav ol{
+    color:white;
+    font:15px;
+}
+
