@@ -38,7 +38,7 @@ h1{
 /*M2LO13 Demonstrate how CSS can change presentation of textual elements
 (CSS, these are styles that impact text that is rendered on the page)*/
 
-p{
+div.p{
     background-color: black;
     color: white;
     text-align: center;
@@ -134,7 +134,7 @@ progressive enhancement in CSS (CSS, see 2-6 Employing Progressive Enhancement)*
 nav{
   float: left;
 }
-.ul{
+ul{
     color:rgb(252, 251, 250);
     font-size: 20px;
     padding-top: 0;
