@@ -100,8 +100,16 @@ address{
     text-align: center;
 }
 /*typographical styles*/
+
+h1, h2, h3, h4{
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  font-style: italic;
+  padding-top: 0;
+}
 address, article, aside, body, cite, div, dl, dt, dd, em, figcaption,
-figure, footer, h1, h2, h3, h4, header, html, img, li, nav, ol, p, 
+figure, footer, header, html, img, li, nav, ol, p, 
 section, span, ul{
   background-color: black;
   color: whitesmoke;
