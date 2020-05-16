@@ -7,9 +7,11 @@ body{
     color: whitesmoke;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: normal;
-    border-radius: 15px double rgb(128, 27, 5);   
 }
 
+body{
+  border-radius: 15px double rgb(128, 27, 5);
+}
 .container{
   width: 80%;
   margin: auto;
