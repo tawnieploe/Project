@@ -1,32 +1,31 @@
 /*structural styles*/
+
 body{
     background-color: black;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: normal;
 }
-.container{
-    width: 80%;
-    margin: auto;
-}
 header{
-    background-color: rgb(96, 94, 93)
+  background-color: rgb(96, 94, 93);
 }
 header::after{
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
-/*• M2LO6  Demonstrate a CSS id and a CSS class selector 
+/*•	M2LO6  Demonstrate a CSS id and a CSS class selector
 (CSS, specify 2 times, show a use of id and a use of class, see 2-9b Attribute selectors)*/
 h1{
     text-align: center;
     color: white;
     font-size: 35px;
     font-style: italic;
+    padding-top: 0;
+
 }
 /*M2LO3 Demonstrate style precedence and inheritance in */
-/*M2LO13 Demonstrate how CSS can change presentation of textual elements 
+/*M2LO13 Demonstrate how CSS can change presentation of textual elements
 (CSS, these are styles that impact text that is rendered on the page)*/
 
 p{
@@ -34,40 +33,14 @@ p{
     color: white;
     text-align: center;
 }
-/*• M2LO7 Demonstrate a CSS attribute selector other than class or id
- (CSS, specify 1 time, see 2-9b Attribute selectors)*/
-
- footer{
-     background-color: black;
-     color: whitesmoke;
-     text-align: center;
-     margin: inherit;
-}
-/*• M2LO3 Demonstrate style precedence and inheritance in */
-
-address{
-    background-color: black;
-    color: whitesmoke;
-    text-align: center;
-}
-img{
-    max-width: 55%;
-    max-height: 35%;
-    border-radius: 8px;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-}
-
 h1{
-    background-color: black;
     text-align: center;
     color: whitesmoke;
     font-size: 55px;
     text-transform: uppercase;
     padding-top: 0;
  }
-/*Demonstrate external, embedded, and inline styles (HTML, this item should be specified 2 times, once each for embedded and inline styles; 
+/*Demonstrate external, embedded, and inline styles (HTML, this item should be specified 2 times, once each for embedded and inline styles;
 note external was taken care of with M1LO8; see 2-3b Embedded Style Sheets, and 2-3c Inline Styles)*/
 
 /*M2LO12 Demonstrate how CSS can change presentation of page elements
@@ -75,58 +48,77 @@ note external was taken care of with M1LO8; see 2-3b Embedded Style Sheets, and 
 p{
     text-align: center;
     text-decoration: whitesmoke;
-    text-transform: initial;
+    text-transform: lowercase;
     font-size: 25px;
 }
 /*M2LO15 Apply colors using CSS (CSS, see 2-5 Working with Color in CSS)*/
 
 /*Sidebar Menu*/
-nav a{
-    font-size: 50px;
-    height: 40%;
-    width: 15%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    right:0;
-    background-color: rgb(59, 56, 56);
-    padding-top: 20;
-}
+
 /*M2LO5 Demonstrate contextual selectors (CSS, specify 2 times, showing two different
  types of contextual selectors as shown in Figure 2-12, Contextual Selectors, of the textbook*/
 
-/*• M2LO6  Demonstrate a CSS id and a CSS class selector (CSS, specify 2 times, 
+/*•	M2LO6  Demonstrate a CSS id and a CSS class selector (CSS, specify 2 times,
  show a use of id and a use of class, see 2-9b Attribute selectors)*/
 
-/*M2LO14 Demonstrate and explain the use of 
+/*•	M2LO7 Demonstrate a CSS attribute selector other than class or id
+ (CSS, specify 1 time, see 2-9b Attribute selectors)*/
+
+ footer{
+    text-align: center;
+    margin: inherit;
+}
+/*•	M2LO3 Demonstrate style precedence and inheritance in */
+
+address{
+    text-align: center;
+}
+/* image properties*/
+img{
+    max-width: 55%;
+    max-height: 35%;
+    border-radius: 8px;
+    display: block;
+    margin-top: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    position: fixed;
+}
+
+/*M2LO14 Demonstrate and explain the use of
 progressive enhancement in CSS (CSS, see 2-6 Employing Progressive Enhancement)*/
 /* Visited Link */
-a:visited {
-    color: rgb(56, 2, 2);
+nav:visited {
+    color: rgb(0,0,0);
 }
-/*• M2LO11 Demonstrate a pseudo-classes and a pseudo-element selector (CSS, specify 2 times,
+/*•	M2LO11 Demonstrate a pseudo-classes and a pseudo-element selector (CSS, specify 2 times,
   show one pseudo-class and one pseudo-element, see 2-18 Using Pseudo-Classes and Pseudo-Elements)*/
+
 
 /*navigation*/
 nav{
-    float: left;
-}
-nav a{
-    color: rgb(147, 137, 135);
-    text-decoration: none;
-    text-transform: uppercase;
+  float: left;
 }
 nav.ul{
-    color: rgb(147, 137, 135);
-    font-size: 40px;
+    color:rgb(252, 251, 250);
+    font-size: 20px;
     padding-top: 0;
-    list-style: none;
+    margin: 0;
 }
-nav.li{
-    display: inline;
-    margin-left: 15px;
+nav li{
+  display: inline-block;
+  margin-left: 135px;
+  padding-top: 30px;
 }
 nav ol{
     color:white;
     font:15px;
+}
+nav a{
+  text-decoration: none ;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+}
+nav a:hover{
+  color: rgb(128, 27, 5);
 }
