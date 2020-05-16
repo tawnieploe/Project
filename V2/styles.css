@@ -59,9 +59,10 @@ p{
 }
 .box {
   background-image:url(./yruso_logo.jpg);
-  padding: 200px 100px;
+  padding: 0px;
   margin: 5px;
   background-size: cover;
+  background-position: top left;
 
 }
 /*M2LO15 Apply colors using CSS (CSS, see 2-5 Working with Color in CSS)*/
