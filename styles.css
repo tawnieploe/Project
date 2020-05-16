@@ -101,7 +101,7 @@ nav a{
 /*M2LO14 Demonstrate and explain the use of 
 progressive enhancement in CSS (CSS, see 2-6 Employing Progressive Enhancement)*/
 /* Visited Link */
-a :visited {
+a:visited {
     color: rgb(56, 2, 2);
 }
 /*• M2LO11 Demonstrate a pseudo-classes and a pseudo-element selector (CSS, specify 2 times,
@@ -110,6 +110,11 @@ a :visited {
 /*navigation*/
 nav{
     float: left;
+}
+nav a{
+    color: rgb(147, 137, 135);
+    text-decoration: none;
+    text-transform: uppercase;
 }
 nav.ul{
     color: rgb(147, 137, 135);
