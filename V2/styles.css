@@ -100,16 +100,7 @@ address{
     text-align: center;
 }
 /*typographical styles*/
-address, article, aside, body, cite, div, dl, dt, dd, em, figcaption,
-figure, footer, h1, h2, h3, h4, header, html, img, li, nav, ol, p, 
-section, span, ul{
-  background-color: black;
-  color: whitesmoke;
-  font-size: 100%;
-  margin: 1%;
-  padding: 1%;
-  vertical-align: auto;
-}
+
 /* M3L01 Demonstrates the use of a reset stylesheet*/
 /* image properties*/
 img{
