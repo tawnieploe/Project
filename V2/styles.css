@@ -8,6 +8,10 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: normal;
 }
+.container{
+  width: 80%;
+  margin: auto;
+}
 header{
   background-color: rgb(96, 94, 93);
 }
