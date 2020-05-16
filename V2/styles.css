@@ -64,7 +64,7 @@ p{
 .box {
   background-image:url(./yruso_logo.jpg);
   opacity: %;
-  padding: 100px;
+  padding: 300px 100;
   margin: 5px;
   background-size: cover;
   background-position: top left;
