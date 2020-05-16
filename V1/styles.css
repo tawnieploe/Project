@@ -35,6 +35,12 @@ h1{
     padding-top: 0;
 
 }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 .box{
   max-width: 55%;
   max-height: 35%;
