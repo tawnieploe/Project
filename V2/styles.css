@@ -7,7 +7,9 @@ body{
     color: whitesmoke;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: normal;
+    border-radius: 15px double rgb(128, 27, 5);   
 }
+
 .container{
   width: 80%;
   margin: auto;
@@ -115,16 +117,7 @@ img{
     margin-left: auto;
     position: fixed;
 }
-div img {
-    border-radius: 25px;
-    background: url(yruso_logo.jpg);
-    background-position: left top;
-    background-repeat: repeat;
-    padding: 20px; 
-    width: 200px;
-    height: 150px; 
-  }
-}
+
 /*M2LO14 Demonstrate and explain the use of
 progressive enhancement in CSS (CSS, see 2-6 Employing Progressive Enhancement)*/
 /* Visited Link */
