@@ -12,6 +12,11 @@ body{
 header{
     background-color: rgb(96, 94, 93)
 }
+header::after{
+    content: "";
+    display: table;
+    clear: both;
+}
 /*• M2LO6  Demonstrate a CSS id and a CSS class selector 
 (CSS, specify 2 times, show a use of id and a use of class, see 2-9b Attribute selectors)*/
 h1{
@@ -103,11 +108,18 @@ a :visited {
   show one pseudo-class and one pseudo-element, see 2-18 Using Pseudo-Classes and Pseudo-Elements)*/
 
 /*navigation*/
-nav ul{
-    color: white;
+nav{
+    float: left;
+}
+nav.ul{
+    color: rgb(147, 137, 135);
     font-size: 40px;
-    padding-top: 20px;
-    margin:50px;
+    padding-top: 0;
+    list-style: none;
+}
+nav.li{
+    display: inline;
+    margin-left: 15px;
 }
 nav ol{
     color:white;
