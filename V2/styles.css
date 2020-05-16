@@ -134,31 +134,30 @@ progressive enhancement in CSS (CSS, see 2-6 Employing Progressive Enhancement)*
 nav{
   float: left;
 }
-nav.ul{
+.ul{
     color:rgb(252, 251, 250);
     font-size: 20px;
     padding-top: 0;
     margin: 0;
 }
-nav a{
+a{
   text-decoration: none ;
   text-transform: uppercase;
   color: rgb(0, 0, 0);
 }
-nav a:hover{
+a:hover{
   color: rgb(128, 27, 5);
 }
-nav li{
+li{
   display: inline-block;
   margin-left: 135px;
   padding-top: 30px;
 }
-nav:visited {
+a:visited {
   color: rgb(0,0,0);
 }
 /*navigation*/
-
-nav ol{
+ol{
     color:white;
     font:15px;
 }
