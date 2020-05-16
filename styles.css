@@ -5,6 +5,13 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: normal;
 }
+.container{
+    width: 80%;
+    margin: auto;
+}
+header{
+    background-color: rgb(96, 94, 93)
+}
 /*• M2LO6  Demonstrate a CSS id and a CSS class selector 
 (CSS, specify 2 times, show a use of id and a use of class, see 2-9b Attribute selectors)*/
 h1{
@@ -26,12 +33,16 @@ p{
  (CSS, specify 1 time, see 2-9b Attribute selectors)*/
 
  footer{
-    text-align: center;
-    margin: inherit;
+     background-color: black;
+     color: whitesmoke;
+     text-align: center;
+     margin: inherit;
 }
 /*• M2LO3 Demonstrate style precedence and inheritance in */
 
 address{
+    background-color: black;
+    color: whitesmoke;
     text-align: center;
 }
 img{
@@ -44,6 +55,7 @@ img{
 }
 
 h1{
+    background-color: black;
     text-align: center;
     color: whitesmoke;
     font-size: 55px;
