@@ -59,10 +59,11 @@ p{
 }
 .box {
   background-image:url(./yruso_logo.jpg);
-  padding: 0px;
+  opacity: .50%;
+  padding: 100px;
   margin: 5px;
   background-size: cover;
-  background-position: top left;
+  background-position: center;
 }
 /*M4L02 Demonstrates the use of a backgroun image*/
 /*M2LO15 Apply colors using CSS (CSS, see 2-5 Working with Color in CSS)*/
