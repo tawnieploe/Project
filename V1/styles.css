@@ -16,6 +16,9 @@ header::after{
   display: table;
   clear: both;
 }
+article, figcaption, figure, footer, header, main, nav, section{
+  display: block;
+}
 /*•	M2LO6  Demonstrate a CSS id and a CSS class selector
 (CSS, specify 2 times, show a use of id and a use of class, see 2-9b Attribute selectors)*/
 h1{
@@ -74,6 +77,17 @@ p{
 
 address{
     text-align: center;
+}
+/*typographical styles*/
+address, article, aside, body, cite, div, dl, dt, dd, em, figcaption,
+figure, footer, h1, h2, h3, h4, header, html, img, li, nav, ol, p, 
+section, span, ul{
+  background-color: black;
+  color: whitesmoke;
+  font-size: 100%;
+  margin: 1%;
+  padding: 1%;
+  vertical-align: auto;
 }
 /* image properties*/
 img{
