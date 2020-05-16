@@ -35,6 +35,17 @@ h1{
     padding-top: 0;
 
 }
+.box{
+  max-width: 55%;
+  max-height: 35%;
+  border-radius: 8px;
+  display: block;
+  margin-top: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  position: fixed;
+}
+
 /*M2LO3 Demonstrate style precedence and inheritance in */
 /*M2LO13 Demonstrate how CSS can change presentation of textual elements
 (CSS, these are styles that impact text that is rendered on the page)*/
@@ -83,16 +94,6 @@ address{
 }
 /* M3L01 Demonstrates the use of a reset stylesheet*/
 /* image properties*/
-.box{
-    max-width: 55%;
-    max-height: 35%;
-    border-radius: 8px;
-    display: block;
-    margin-top: 200px;
-    margin-right: auto;
-    margin-left: auto;
-    position: fixed;
-}
 
 /*M2LO14 Demonstrate and explain the use of
 progressive enhancement in CSS (CSS, see 2-6 Employing Progressive Enhancement)*/
