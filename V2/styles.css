@@ -7,7 +7,10 @@ body{
     color: whitesmoke;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: normal;
+}.body{
+  background-image: img (yruso_logo.jpg) no repeat;
 }
+
 .container{
   width: 80%;
   margin: auto;
