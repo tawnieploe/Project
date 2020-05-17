@@ -9,6 +9,8 @@ body{
     font-weight: normal;
 }.body{
   background-image: img (yruso_logo.jpg) no repeat;
+  width: 80%
+  height: 50%
 }
 
 .container{
