@@ -137,8 +137,6 @@ img.tawnie{
   float: right;
 }
 img.sisters{
-  float: left;
-  display: block;
   width: 250px ;
   height: 250px;
   border-radius: 15px, 15px, 15px, 15px;
