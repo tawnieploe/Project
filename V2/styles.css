@@ -160,9 +160,9 @@ a{
   text-transform: uppercase;
   color: rgb(128, 27, 5);
 }
-:hover{
+a:hover{
   color: rgb(128, 27, 5);
 }
-:visited {
+a:visited {
   color: rgb(128,27,5);
 }
