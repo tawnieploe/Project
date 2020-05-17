@@ -85,7 +85,12 @@ p{
 body{
   border-radius: 15px double rgb(128, 27, 5);
 }
-
+.allison{
+  float: left;
+}
+.tawnie{
+  float: right;
+}
 
  /*Footer*/
 
