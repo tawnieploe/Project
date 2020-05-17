@@ -151,18 +151,18 @@ li{
   margin-left: 100px;
   padding-top: 30px;
 }
-div.ol{
+ol{
     color:white;
     font:15px;
 }
 a{
   text-decoration: none ;
   text-transform: uppercase;
-  color: rgb(0, 0, 0);
+  color: rgb(96, 94, 93);
 }
 a:hover{
   color: rgb(128, 27, 5);
 }
 a:visited {
-  color: rgb(0,0,0);
+  color: rgb(96,94,93);
 }
