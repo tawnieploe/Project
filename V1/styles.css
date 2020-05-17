@@ -69,6 +69,37 @@ h1{
     text-transform: uppercase;
     padding-top: 0;
  }
+ /*navigation*/
+nav{
+  float: left;
+}
+ul{
+    width: auto;
+    color:rgb(252, 251, 250);
+    font-size: 20px;
+    padding-top: 0;
+    margin: 0;
+}
+li{
+  display: inline-block;
+  margin-left: 100px;
+  padding-top: 30px;
+}
+div.ol{
+    color:white;
+    font:15px;
+}
+a{
+  text-decoration: none ;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+}
+a:hover{
+  color: rgb(128, 27, 5);
+}
+a:visited {
+  color: rgb(0,0,0);
+}
 /*Demonstrate external, embedded, and inline styles (HTML, this item should be specified 2 times, once each for embedded and inline styles;
 note external was taken care of with M1LO8; see 2-3b Embedded Style Sheets, and 2-3c Inline Styles)*/
 
@@ -108,34 +139,3 @@ progressive enhancement in CSS (CSS, see 2-6 Employing Progressive Enhancement)*
   show one pseudo-class and one pseudo-element, see 2-18 Using Pseudo-Classes and Pseudo-Elements)*/
 
 
-/*navigation*/
-nav{
-  float: left;
-}
-ul{
-    width: auto;
-    color:rgb(252, 251, 250);
-    font-size: 20px;
-    padding-top: 0;
-    margin: 0;
-}
-li{
-  display: inline-block;
-  margin-left: 100px;
-  padding-top: 30px;
-}
-div.ol{
-    color:white;
-    font:15px;
-}
-a{
-  text-decoration: none ;
-  text-transform: uppercase;
-  color: rgb(0, 0, 0);
-}
-a:hover{
-  color: rgb(128, 27, 5);
-}
-a:visited {
-  color: rgb(0,0,0);
-}

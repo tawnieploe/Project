@@ -29,14 +29,14 @@ article, figcaption, figure, footer, header, main, nav, section{
 h1{
     text-align: center;
     color: white;
-    font-size: 35px;
+    font-size: 50px;
     font-style: italic;
     padding-top: 0;
 }
 h2{
   text-align: center;
   color: whitesmoke;
-  font-size: 35px;
+  font-size: 50px;
   font-style: italic;
   padding-top: 0;
 }
