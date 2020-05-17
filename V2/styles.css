@@ -9,7 +9,7 @@ body{
     font-weight: normal;
 }.body{
   background-image: url(yruso_logo.jpg);
-  background-size: cover;
+  background-clip: padding-box;
 }
 
 .container{
