@@ -85,12 +85,6 @@ p{
 body{
   border-radius: 15px double rgb(128, 27, 5);
 }
-.allison{
-  float: left;
-}
-.tawnie{
-  float: right;
-}
 
  /*Footer*/
 
@@ -129,6 +123,15 @@ img{
     margin-left: auto;
     position: fixed;
 }
+.allison{
+  display: block;
+  float: left;
+}
+.tawnie{
+  display: block;
+  float: right;
+}
+
 
 
 /*M2LO14 Demonstrate and explain the use of
