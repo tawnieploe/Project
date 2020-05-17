@@ -136,8 +136,13 @@ img.tawnie{
   display: block;
   float: right;
 }
-
-
+img.sisters{
+  float: left;
+  display: block;
+  width: 250px ;
+  height: 250px;
+  border-radius: 10px;
+}
 
 /*M2LO14 Demonstrate and explain the use of
 progressive enhancement in CSS (CSS, see 2-6 Employing Progressive Enhancement)*/
