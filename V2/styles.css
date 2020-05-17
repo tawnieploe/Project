@@ -90,12 +90,12 @@ p{
 body{
   border-radius: 15px double rgb(128, 27, 5);
 }
-.box1{
+#box1{
   width:800px ;
   height:300px ;
   float: left;
   background: black;
-  background: linear-gradient(black, grey);
+  background: linear-gradient(45 deg,black, grey);
 }
  /*Footer*/
 
