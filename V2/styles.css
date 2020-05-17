@@ -123,11 +123,11 @@ img{
     margin-left: auto;
     position: fixed;
 }
-.allison{
+img.allison{
   display: block;
   float: left;
 }
-.tawnie{
+img.tawnie{
   display: block;
   float: right;
 }
