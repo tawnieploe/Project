@@ -49,7 +49,7 @@ h2{
 /*M2LO13 Demonstrate how CSS can change presentation of textual elements
 (CSS, these are styles that impact text that is rendered on the page)*/
 
-div.p{
+.p{
     background-color: black;
     color: white;
     text-align: center;
@@ -90,7 +90,13 @@ p{
 body{
   border-radius: 15px double rgb(128, 27, 5);
 }
-
+.box1{
+  width:800px ;
+  height:300px ;
+  float: left;
+  background: black;
+  background: linear-gradient(black, grey);
+}
  /*Footer*/
 
  footer{
@@ -136,6 +142,10 @@ img{
     transform: rotateY(180deg);
     transform: rotateY(180deg);
 }
+/*m4lo2 use of a background image*/
+/*m4lo8 use of transformations for 2d or 3d imagies. It changes the appearacnce of how it was intended.*/
+/*m4lo6 opacity/ transparency*/
+/*m4o5 box shadowing*/
 .allison{
   display: block;
   float: left;
