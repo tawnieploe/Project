@@ -18,11 +18,13 @@ header{
   background-color: rgb(96, 94, 93);
 }
 header::after{
-  position: absolute;
+  position: relative;
   content: "";
   display: table;
   clear: both;
 }
+/*m3lo8a absolute positioning*/
+/*m3lo8b relative positioning*/
 
 article, figcaption, figure, footer, header, main, nav, section{
   display: block;

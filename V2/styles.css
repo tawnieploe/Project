@@ -97,6 +97,16 @@ body{
   background: black;
   background: linear-gradient(45 deg,black, grey);
 }
+/*grid row styles*/
+.row{
+  clear: both;
+}
+.row::after{
+  clear: both;
+  content: "";
+  display: table;
+
+}
  /*Footer*/
 
  footer{
