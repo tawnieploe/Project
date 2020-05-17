@@ -158,11 +158,11 @@ ol{
 a{
   text-decoration: none ;
   text-transform: uppercase;
-  color: rgb(96, 94, 93);
-}
-a:hover{
   color: rgb(128, 27, 5);
 }
-a:visited {
-  color: rgb(96,94,93);
+:hover{
+  color: rgb(128, 27, 5);
+}
+:visited {
+  color: rgb(128,27,5);
 }
