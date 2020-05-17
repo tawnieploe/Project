@@ -137,10 +137,12 @@ img.tawnie{
   float: right;
 }
 img.sisters{
+  clear: right;
   width: 250px ;
   height: 250px;
   border-radius: 15px, 15px, 15px, 15px;
 }
+/*horizontal navigation styles*/
 
 /*M2LO14 Demonstrate and explain the use of
 progressive enhancement in CSS (CSS, see 2-6 Employing Progressive Enhancement)*/
@@ -154,6 +156,7 @@ progressive enhancement in CSS (CSS, see 2-6 Employing Progressive Enhancement)*
 nav{
   float: left;
 }
+/*m3l02 demonstrate a floating element. allows the nav bar to start on the left*/
 ul{
     width: auto;
     color:rgb(252, 251, 250);
