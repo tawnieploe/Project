@@ -85,13 +85,13 @@ div.ol{
 a{
   text-decoration: none ;
   text-transform: uppercase;
-  color: rgb(0, 0, 0);
+  color: rgb(128, 27, 5);
 }
 a:hover{
   color: rgb(128, 27, 5);
 }
 a:visited {
-  color: rgb(0,0,0);
+  color: rgb(128, 27, 5);
 }
 /*Demonstrate external, embedded, and inline styles (HTML, this item should be specified 2 times, once each for embedded and inline styles;
 note external was taken care of with M1LO8; see 2-3b Embedded Style Sheets, and 2-3c Inline Styles)*/
