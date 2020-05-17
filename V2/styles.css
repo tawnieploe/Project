@@ -8,7 +8,7 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: normal;
 }.body{
-  background-image: img (yruso_logo.jpg);
+  background-image: url(yruso_logo.jpg);
 }
 
 .container{
