@@ -9,13 +9,16 @@ body{
     font-weight: normal;
 }
 .container{
+  position: absolute;
   width: 80%;
   margin: auto;
 }
 header{
+  position: absolute;
   background-color: rgb(96, 94, 93);
 }
 header::after{
+  position: absolute;
   content: "";
   display: table;
   clear: both;
