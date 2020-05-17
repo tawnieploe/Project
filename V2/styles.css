@@ -23,6 +23,11 @@ header::after{
 article, figcaption, figure, footer, header, main, nav, section{
   display: block;
 }
+figure{
+  float:left;
+  width: 90%;
+  border: thin rgb(128, 27, 5) solid;
+}
 /* M3L01 Demonstrates the use of a reset stylesheet*/
 /*•	M2LO6  Demonstrate a CSS id and a CSS class selector
 (CSS, specify 2 times, show a use of id and a use of class, see 2-9b Attribute selectors)*/
