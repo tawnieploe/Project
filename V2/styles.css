@@ -154,6 +154,7 @@ img{
     transform: rotateY(180deg);
     transform: rotateY(180deg);
 }
+/*m3lo11 use of background image. adds support for features from browsers*/
 /*m4lo2 use of a background image*/
 /*m4lo8 use of transformations for 2d or 3d imagies. It changes the appearacnce of how it was intended.*/
 /*m4lo6 opacity/ transparency*/
@@ -171,6 +172,7 @@ img{
   width: 250px ;
   height: 250px;
   border-radius: 15px, 15px, 15px, 15px;
+  position: static;
 }
 /*right column*/
 section#rightColumn{
