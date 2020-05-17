@@ -40,16 +40,6 @@ image {
   margin-left: auto;
   margin-right: auto;
 }
-.box{
-  max-width: 55%;
-  max-height: 35%;
-  border-radius: 8px;
-  display: block;
-  margin-top: 200px;
-  margin-right: auto;
-  margin-left: auto;
-  position: fixed;
-}
 
 /*M2LO3 Demonstrate style precedence and inheritance in */
 /*M2LO13 Demonstrate how CSS can change presentation of textual elements

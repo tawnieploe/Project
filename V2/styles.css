@@ -133,15 +133,26 @@ progressive enhancement in CSS (CSS, see 2-6 Employing Progressive Enhancement)*
 /*•	M2LO11 Demonstrate a pseudo-classes and a pseudo-element selector (CSS, specify 2 times,
   show one pseudo-class and one pseudo-element, see 2-18 Using Pseudo-Classes and Pseudo-Elements)*/
 
-/*horizontal navigation*/
+
+/*navigation*/
 nav{
   float: left;
 }
 ul{
+    width: auto;
     color:rgb(252, 251, 250);
     font-size: 20px;
     padding-top: 0;
     margin: 0;
+}
+li{
+  display: inline-block;
+  margin-left: 100px;
+  padding-top: 30px;
+}
+div.ol{
+    color:white;
+    font:15px;
 }
 a{
   text-decoration: none ;
@@ -151,17 +162,6 @@ a{
 a:hover{
   color: rgb(128, 27, 5);
 }
-li{
-  display: inline-block;
-  margin-left: 135px;
-  padding-top: 30px;
-}
 a:visited {
   color: rgb(0,0,0);
 }
-/*navigation*/
-ol{
-    color:white;
-    font:15px;
-}
-
