@@ -131,8 +131,10 @@ img{
 .logo{
   -webkit-filter: drop-shadow(-15px 0px 5px rgba(65,65,65,0.5)) grayscale(0.4) opacity(0.8);
     filter: drop-shadow(-15px 0px 5px rgba(51, 51, 51, 0.9)) grayscale(0.7) opacity(0.6);
- transform: rotateY(180deg);
- transform: rotateY(180deg);
+    background-clip: border-box;
+    position: fixed;
+    transform: rotateY(180deg);
+    transform: rotateY(180deg);
 }
 .allison{
   display: block;
