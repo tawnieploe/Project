@@ -1,0 +1,88 @@
+html{
+    width: 100%;
+  }
+  body{
+      background-color: black;
+      color: white;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-weight: normal;
+      text-align: center;
+  }
+  header{
+    background-color: rgb(96, 94, 93);
+  }
+  header::after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .road{
+    background-image:image(yruso_logo.jpg);
+    background-position: horizontal vertical;
+    background-clip: border-box;
+    background-size: auto;
+    opacity: .55;
+  }
+  .spirit_board{
+    background-image: linear-gradient(ouija.jpg);
+    float: left;
+  }
+  
+  .scary_clown{
+    display: block;
+    margin-left: 33%;
+    margin-right: auto;
+    margin-top: 25px;
+  }
+  .sisters{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    border-radius: 10px;
+  }
+  .mic{
+    background-image: url(yruso_mic.jpg);
+    width: 90%
+    height:auto;
+  }
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: absolute;
+  }
+  .grid div:nth-child(odd){
+    background-color: black
+    color: rgb(252, 251,250);
+  }
+  .grid div:nth-child(even){
+    background-color: black
+    color: maroon;
+  }
+  /*M2LO3 Demonstrate style precedence and inheritance in */
+  /*M2LO13 Demonstrate how CSS can change presentation of textual elements
+  (CSS, these are styles that impact text that is rendered on the page)*/
+  h1{
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 45px;
+  }
+  h2{
+    display: inline;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 25px;
+    text-transform: inherit;
+    float: left;
+  }
+  h3{
+    display: inline;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 25px;
+    text-transform: inherit;
+    float: right;
+  }
+  
+  
