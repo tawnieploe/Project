@@ -28,7 +28,8 @@ address article aside figcaption footer{
   color: whitesmoke;
   text align: inherit;
 }
-
+/*•	M3LO9 Demonstrate fixed, static, or inherited positioning (CSS, note explicit use of one of 
+the three in your CSS and what the impact is on the HTML)*/
 /*•	M3LO1 Demonstrate the use of a CSS reset style sheet (CSS, note where you have CSS reset rules)*/
 
 .road{
@@ -38,6 +39,7 @@ address article aside figcaption footer{
   background-size: contain;
   opacity: .55;
 }
+/*•	M4LO6 Demonstrate the use of opacity/transparency for images (see 4.2) (CSS)*/
 .spirit_board{
   background-image: linear-gradient(ouija.jpg);
   float: left;
@@ -82,6 +84,8 @@ address article aside figcaption footer{
   transform: rotateX(25deg)
             translateZ(65px);
 }
+/*•	M4LO8 Demonstrate the use of transformations for 2D or 3D images 
+(CSS, note one of these two in your CSS and explain its impact on the HTML)*/
 .grad-box{
   height: 150px;
   background-image: radial-gradient(silver, #646261, #030303);
@@ -116,6 +120,8 @@ h1{
   text-shadow: rgb(255, 255, 255)2px 2px 1px,
                rgba(141,138,137,.66)5px 5px 25px;
 }
+/*•	M4LO5 Demonstrate the use of text or box shadowing 
+(CSS, note one of these two in your CSS and explain its impact on the HTML)*/
 h2{
   display: inline;
   background-color: black;
@@ -184,6 +190,7 @@ nav.ul{
   height: 150px;
   background-image: radial-gradient(silver, #646261, #030303);
 }
+/*•	M4LO4 Demonstrate the use of gradients (CSS)*/
 nav li{
   float: left;
   display: inline-block;
