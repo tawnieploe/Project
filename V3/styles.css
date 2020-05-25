@@ -1,115 +1,171 @@
-/*•	M1LO8 Demonstrate the use of external style sheets (HTML, note the external style 
+/*•	M1LO8 Demonstrate the use of external style sheets (HTML, note the external style
 sheet must exist and contain CSS)*/
-/*•	M2LO4 Demonstrate external, embedded, and inline styles (HTML, this item should be specified 2 times, once each for embedded and inline styles; 
+/*•	M2LO4 Demonstrate external, embedded, and inline styles (HTML, this item should be specified 2 times, once each for embedded and inline styles;
 note external was taken care of with M1LO8; see 2-3b Embedded Style Sheets, and 2-3c Inline Styles)*/
 html{
-    width: 100%;
-  }
-  body{
-      background-color: black;
-      color: white;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      font-weight: normal;
-      text-align: center;
-  }
-  /*•	M2LO15 Apply colors using CSS (CSS, see 2-5 Working with Color in CSS)*/
-  header{
-    background-color: rgb(96, 94, 93);
-  }
-  header::after{
-    content: "";
-    display: table;
-    clear: both;
-  }
-  /*• M2LO6  Demonstrate a CSS id and a CSS class selector
-(CSS, specify 2 times, show a use of id and a use of class, see 2-9b Attribute selectors)*/
-
-  .road{
-    background-image:image(yruso_logo.jpg);
-    background-position: horizontal vertical;
-    background-clip: border-box;
-    background-size: auto;
-    opacity: .55;
-  }
-  .spirit_board{
-    background-image: linear-gradient(ouija.jpg);
-    float: left;
-  }
-  
-  .scary_clown{
-    display: block;
-    margin-left: 33%;
-    margin-right: auto;
-    margin-top: 25px;
-  }
-  .sisters{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 25px;
-    border-radius: 10px;
-  }
-  .mic{
-    background-image: url(yruso_mic.jpg);
-    width: 90%
-    height:auto;
-  }
-  .grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    position: absolute;
-  }
-  .grid div:nth-child(odd){
-    background-color: black
-    color: rgb(252, 251,250);
-  }
-  .grid div:nth-child(even){
-    background-color: black
-    color: maroon;
-  }
-  /*M2LO3 Demonstrate style precedence and inheritance in */
-  /*M2LO13 Demonstrate how CSS can change presentation of textual elements
-  (CSS, these are styles that impact text that is rendered on the page)*/
-  h1{
-    background-color: black;
-    color: whitesmoke;
-    text-align: center;
-    font-size: 45px;
-  }
-  h2{
-    display: inline;
-    background-color: black;
-    color: whitesmoke;
-    font-size: 25px;
-    text-transform: inherit;
-    float: left;
-  }
-  /*•	M3LO2 Demonstrate floating elements (CSS, note where you have specified a floating element and what its impact is)*/
-  h3{
-    display: inline;
-    background-color: black;
-    color: whitesmoke;
-    font-size: 25px;
-    text-transform: inherit;
-    float: right;
-  }
-  /*/*M2LO12 Demonstrate how CSS can change presentation of page elements
- (CSS, these are styles that impact page elements rather than impacting text on the page)*/
- p{
+  width: 100%;
+}
+body{
     background-color: black;
     color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
     text-align: center;
 }
-p1{
+/*•	M2LO15 Apply colors using CSS (CSS, see 2-5 Working with Color in CSS)*/
+header{
+  background-color: rgb(96, 94, 93);
+}
+header::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+/*• M2LO6  Demonstrate a CSS id and a CSS class selector
+(CSS, specify 2 times, show a use of id and a use of class, see 2-9b Attribute selectors)*/
+address article aside figcaption footer{
+  background-color: black;
+  color: whitesmoke;
+  text align: inherit;
+}
+
+/*•	M3LO1 Demonstrate the use of a CSS reset style sheet (CSS, note where you have CSS reset rules)*/
+
+.road{
+  background-image:image(yruso_logo.jpg);
+  background-position: horizontal vertical;
+  background-clip: border-box;
+  background-size: contain;
+  opacity: .55;
+}
+.spirit_board{
+  background-image: linear-gradient(ouija.jpg);
+  float: left;
+}
+
+.scary_clown{
+  display: block;
+  margin-left: 33%;
+  margin-right: auto;
+  margin-top: 25px;
+}
+.sisters{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  border-radius: 10px;
+}
+.tawnie{
+  display: block;
+  float: left;
+  border-color: rgb(128, 27, 5);
+  border-style: double;
+}
+.allison{
+  display: block;
+  float: right;
+  border-color: rgb(128, 27, 5);
+  border-style: double;
+}
+.mic{
+  display: block;
+  align-items: center;
+  clear: both;
+}
+.woman{
+  background-image:image(woman.jpg);
+  display: block;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  transform: rotateX(25deg)
+            translateZ(65px);
+}
+.grad-box{
+  height: 150px;
+  background-image: radial-gradient(silver, #646261, #030303);
+}
+.grid-container1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position:relative;
+  color: rgb(128, 27, 5);
+  margin-top: -50px;
+  position: inherited;
+  overflow: auto;
+}
+.grid-contianer1 div:nth-child(odd){
+  color: rgb(128, 27,5);
+  margin-top:-50;
+  margin-left:150px ;
+}
+.grid-container1 div:nth-child(even){
+  color: rgb(128, 27, 5);
+  margin-top: auto;
+  margin-right: 150px;
+}
+/*M2LO3 Demonstrate style precedence and inheritance in */
+/*M2LO13 Demonstrate how CSS can change presentation of textual elements
+(CSS, these are styles that impact text that is rendered on the page)*/
+h1{
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 45px;
+  text-shadow: rgb(255, 255, 255)2px 2px 1px,
+               rgba(141,138,137,.66)5px 5px 25px;
+}
+h2{
+  display: inline;
   background-color: black;
   color: whitesmoke;
   font-size: 25px;
-  text-transform: uppercase;
-  clear: left;
+  text-transform: inherit;
+  float: left;
 }
-/*M2LO14 Demonstrate and explain the use of
-progressive enhancement in CSS (CSS, see 2-6 Employing Progressive Enhancement)*/
-/* Visited Link */
+ /*•	M3LO2 Demonstrate floating elements (CSS, note where you have specified a floating element and what its impact is)*/
+h3{
+  display: inline;
+  background-color: black;
+  color: whitesmoke;
+  font-size: 25px;
+  text-transform: inherit;
+  float: right;
+}
+h4{
+  font-style: oblique;
+  font-size: 22px;
+  color: rgb(252, 251, 250);
+}
+/*/*M2LO12 Demonstrate how CSS can change presentation of page elements
+ (CSS, these are styles that impact page elements rather than impacting text on the page)*/
+p{
+  color: whitesmoke;
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+}
+p1{
+  color: whitesmoke;
+  font-size: 18px;
+  font-style: normal;
+}
+
+.sidebar-bio1{
+  clear: right;
+  float: left;
+  width: 20%;
+  color: whitesmoke;
+}
+/*•	M3LO3 Demonstrate a clearing floats (CSS, note where you have used a clear and what its impact is)*/
+.sidebar-bio2{
+  clear: left;
+  float: right;
+  width: 15%;
+  color: whitesmoke;
+}
+
 /*M2LO14 Demonstrate and explain the use of
 progressive enhancement in CSS (CSS, see 2-6 Employing Progressive Enhancement)*/
 /* Visited Link */
@@ -125,10 +181,8 @@ nav{
   float: left;
 }
 nav.ul{
-    color:rgb(252, 251, 250);
-    font-size: 20px;
-    padding-top: 0;
-    margin: 0;
+  height: 150px;
+  background-image: radial-gradient(silver, #646261, #030303);
 }
 nav li{
   float: left;
@@ -141,23 +195,21 @@ nav ol{
     font:15px;
 }
 nav a{
-  text-decoration: none ;
+  text-decoration: none;
   text-transform: uppercase;
   color: rgb(0, 0, 0);
 }
 nav a:hover{
   color: rgb(128, 27, 5);
 }
-
 /*M2LO5 Demonstrate contextual selectors (CSS, specify 2 times, showing two different*/
-  footer{
-    text-align: center;
-    margin: inherit;
-  }
+footer{
+   text-align: center;
+   margin: inherit;
+}
 /*•	M2LO3 Demonstrate style precedence and inheritance in */
 
 address{
-    text-align: center;
+   text-align: center;
 }
-
- /* •	M2LO7 Demonstrate a CSS attribute selector other than class or id (CSS, specify 1 time, see 2-9b Attribute selectors)*/
+/* •	M2LO7 Demonstrate a CSS attribute selector other than class or id (CSS, specify 1 time, see 2-9b Attribute selectors)*/
