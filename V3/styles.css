@@ -38,6 +38,7 @@ the three in your CSS and what the impact is on the HTML)*/
   background-clip: border-box;
   background-size: contain;
   opacity: .55;
+  position: sticky;
 }
 /*•	M4LO6 Demonstrate the use of opacity/transparency for images (see 4.2) (CSS)*/
 .spirit_board{
@@ -87,7 +88,7 @@ the three in your CSS and what the impact is on the HTML)*/
   -webkit-filter: drop-shadow(-15px 0px 5px rgba(65,65,65,0.5)) grayscale(0.4) opacity(0.8);
     filter: drop-shadow(-15px 0px 5px rgba(51, 51, 51, 0.9)) grayscale(0.7) opacity(0.6);
     background-clip: border-box;
-    position: static;
+    position: relative;
     transform: rotateY(180deg);
     transform: rotateY(180deg);
 }
