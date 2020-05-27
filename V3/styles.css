@@ -80,6 +80,7 @@ the three in your CSS and what the impact is on the HTML)*/
   margin-right: auto;
   transform: rotateX(25deg)
             translateZ(65px);
+  position: sticky;
 }
 .mic{
   display: block;
