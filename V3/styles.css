@@ -70,11 +70,7 @@ the three in your CSS and what the impact is on the HTML)*/
   border-color: rgb(128, 27, 5);
   border-style: double;
 }
-.mic{
-  display: block;
-  align-items: center;
-  clear: both;
-}
+
 .woman{
   background-image:image(woman.jpg);
   display: block;
@@ -83,6 +79,14 @@ the three in your CSS and what the impact is on the HTML)*/
   margin-right: auto;
   transform: rotateX(25deg)
             translateZ(65px);
+}
+.mic{
+  -webkit-filter: drop-shadow(-15px 0px 5px rgba(65,65,65,0.5)) grayscale(0.4) opacity(0.8);
+    filter: drop-shadow(-15px 0px 5px rgba(51, 51, 51, 0.9)) grayscale(0.7) opacity(0.6);
+    background-clip: border-box;
+    position: fixed;
+    transform: rotateY(180deg);
+    transform: rotateY(180deg);
 }
 /*•	M4LO8 Demonstrate the use of transformations for 2D or 3D images 
 (CSS, note one of these two in your CSS and explain its impact on the HTML)*/
