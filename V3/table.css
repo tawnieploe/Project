@@ -2,9 +2,23 @@
 /*•	M6LO7 Demonstrate how to format a table with CSS 
 (CSS, group your table styles together and note the overall impact they have on the HTML)*/
 /* Table Styles */
+@import(styles.css);
+
 .demo{
     margin-left: auto;
 	margin-right: auto;
+	background: black;
+	border: 8px solid rgb(152, 151, 150);
+	border:4px solid gray;
+	line-height: 2em;
+	padding: 10px;
+	background-color: black;
+	color: rgb(128,27,5);
+	font-weight: normal;
+	color: rgb(128,27,5);
+	font-size: 1.2em;
+	vertical-align: text-top;
+}
 }
 table {
 	background: black;
