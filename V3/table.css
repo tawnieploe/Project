@@ -3,7 +3,6 @@
 (CSS, group your table styles together and note the overall impact they have on the HTML)*/
 /* Table Styles */
 .demo{
-    width: 75%;
     margin-left: auto;
     margin-right: auto;
 }
