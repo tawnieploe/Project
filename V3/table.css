@@ -18,6 +18,7 @@
 	color: rgb(128,27,5);
 	font-size: 1.2em;
 	vertical-align: text-top;
+	border: 8px solid rgb(152, 151, 150);
 }
 }
 table {
