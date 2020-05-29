@@ -2,8 +2,11 @@
 /*•	M6LO7 Demonstrate how to format a table with CSS 
 (CSS, group your table styles together and note the overall impact they have on the HTML)*/
 /* Table Styles */
-body{
-    align-items: center;
+.demo{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
 }
 table {
 	background: black;
