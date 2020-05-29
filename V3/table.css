@@ -11,17 +11,17 @@ table {
 	background: black;
 	border: 8px solid rgb(152, 151, 150);
 }
-table th, table td {
+th, td {
 	border:4px solid gray;
 	line-height: 2em;
 	padding: 10px;
 }
-table th {
+th {
 	background-color: black;
 	color: rgb(128,27,5);
 	font-weight: normal;
 }
-table td {
+td {
 	color: rgb(128,27,5);
 	font-size: 1.2em;
 	vertical-align: text-top;
