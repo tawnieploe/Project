@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/*•	M6LO7 Demonstrate how to format a table with CSS 
+(CSS, group your table styles together and note the overall impact they have on the HTML)*/
+/* Table Styles */
+table {
+	background: black;
+	border: 8px solid rgb(152, 151, 150);
+}
+table th, table td {
+	border:4px solid gray;
+	line-height: 2em;
+	padding: 10px;
+}
+table th {
+	background-color: black;
+	color: rgb(128,27,5);
+	font-weight: normal;
+}
+table td {
+	color: rgb(128,27,5);
+	font-size: 1.2em;
+	vertical-align: text-top;
+}
+/* Column Styles */
+col#firstCol {
+	width: 12%;
+}
+col.dataCols {
+	width: 12%;
+}
+/* Table Header Styles */
+table thead tr {
+	height: 40px;
+}
+table thead tr:first-of-type th:first-of-type {
+	font-size: 4em;
+}
+table thead tr:first-of-type th:not(:first-of-type){
+	background-color: transparent;
+	color: rgb(128,27,5);
+}
