@@ -1,0 +1,28 @@
+@charset "utf-8"
+
+
+
+.at{
+  display: inline-block;
+  width: 75px;
+  height: 75%;
+}
+.soc{
+  display: inline-block;
+  width: 75%;
+  height: 75%;
+}
+.contact{
+  width: 100%;
+  height: 500px;
+
+  display: flex;
+  flex-wrap: row wrap;
+  justify-content: center;
+}
+/*•	M5LO5 Demonstrate the use of flexboxes on a web page (CSS document where you use flexboxes; 
+explain their impact on the page's layout; this can be a new page or a redo of an existing page)
+•	M5LO7 Demonstrate use of properties of flexbox containers (CSS, document what flexbox container
+ properties you use and their impacts, for one CSS selector using them)
+•	M5LO6 Demonstrate use of properties of flexbox items (CSS, document what flexbox item properties 
+you use and their impacts, for one CSS selector using them)*/
