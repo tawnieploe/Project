@@ -30,6 +30,7 @@ th td {
 	padding: 10px;
 }
 th {
+	font-size: small;
 	background-color: black;
 	color: rgb(128,27,5);
 	font-weight: normal;
