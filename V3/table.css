@@ -48,7 +48,7 @@ col.dataCols {
 }
 /* Table Header Styles */
 table thead tr {
-	height: 25px;
+	height: 12px;
 }
 table thead tr:first-of-type th:first-of-type {
 	font-size: 2em;
