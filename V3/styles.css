@@ -95,6 +95,16 @@ the three in your CSS and what the impact is on the HTML)*/
     transform: rotateY(180deg);
     transform: rotateY(180deg);
 }
+.scare{
+  -webkit-transition: ease-in;
+  transition: width 0.2s ease-in;
+  width: 250px;
+  height: auto;
+}
+.scare:hover{
+    width: 85%;
+    height: auto;
+}
 /*•	M4LO8 Demonstrate the use of transformations for 2D or 3D images 
 (CSS, note one of these two in your CSS and explain its impact on the HTML)*/
 .grad-box{
