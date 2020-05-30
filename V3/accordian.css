@@ -1,0 +1,16 @@
+html{
+    width: 100%
+}
+
+body{
+    background-color: black;
+}
+button.accordian{
+    cursor: pointer;
+    border: 2px solid rgb(128, 27, 5);
+    outline-style: groove;
+    width: 100%;
+    text-align: left;
+    background-color: transparent;
+    color: rgb(252, 251, 250);
+}
