@@ -1,24 +1,2 @@
 @charset "utf-8"
 
-.expanding1{
-    transition: width 0.2s ease-in-out;
-    -webkit-transition: ease-in-out;
-    width: 200px;
-    height: 200px;
-}
-.expanding2{
-    transition: width 0.2s ease-in-out;
-    -webkit-transition: ease-in-out;
-    width: 200px;
-    height: 200px;
-}
-.expanding1:hover{
-    width: 500px;
-    height: 500px;
-    background-color: black;
-}
-.expanding2:hover{
-    width: 500px;
-    height: 500px;
-    background-color: black;
-}
