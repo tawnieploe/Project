@@ -5,10 +5,16 @@ note external was taken care of with M1LO8; see 2-3b Embedded Style Sheets, and 
 @font-face{
   src: url(/Nosifer-regular.ttf);
   font-family: Nosifer;
+}
+@font-face{
   src: url(/Butcherman-regular.ttf);
   font-family: Butcherman;
+}
+@font-face{
   src: url(Frijole-regular.ttf);
   font-family: Frijole;
+}
+@font-face{
   src: url(Cedarville-cursive-regular.ttf);
   font-family: Cedarville-cursive;
 }
