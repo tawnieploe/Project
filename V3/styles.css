@@ -2,11 +2,15 @@
 sheet must exist and contain CSS)*/
 /*•	M2LO4 Demonstrate external, embedded, and inline styles (HTML, this item should be specified 2 times, once each for embedded and inline styles;
 note external was taken care of with M1LO8; see 2-3b Embedded Style Sheets, and 2-3c Inline Styles)*/
-
-}
-font-family:
-  <script src=url('http://use.edgefonts.net/frijole.js'></script>);
-  <script src=url'http://use.edgefonts.net/cedarville-cursive.js'></script>);
+@font-face{
+  src: url(/Nosifer-regular.ttf);
+  font-family: Nosifer;
+  src: url(/Butcherman-regular.ttf);
+  font-family: Butcherman;
+  src: url(Frijole-regular.ttf);
+  font-family: Frijole;
+  src: url(Cedarville-cursive-regular.ttf);
+  font-family: Cedarville-cursive;
 }
 html{
   width: 100%;
@@ -17,7 +21,7 @@ body{
     font-family:nosifer ;
     font-weight: normal;
     text-align: center;
-    font-family
+    font-family:'Nosifer', 'Butcherman', 'Frijole', 'Cedarville-cursive';
 }
 /*•	M2LO15 Apply colors using CSS (CSS, see 2-5 Working with Color in CSS)*/
 header{
@@ -133,7 +137,7 @@ the three in your CSS and what the impact is on the HTML)*/
 h1{
   background-color: black;
   color: rgb(128,27,5);
-  font-family:nosifer;
+  font-family:Nosifer;
   text-align: center;
   font-size: 45px;
   text-shadow: rgb(255, 255, 255)2px 2px 1px,
@@ -148,6 +152,7 @@ h2{
   font-size: 25px;
   text-transform: inherit;
   float: left;
+  font-family;Butcherman;
 }
  /*•	M3LO2 Demonstrate floating elements (CSS, note where you have specified a floating element and what its impact is)*/
 h3{
@@ -157,11 +162,13 @@ h3{
   font-size: 25px;
   text-transform: inherit;
   float: right;
+  font-family: Frijole;
 }
 h4{
   font-style: oblique;
   font-size: 22px;
   color: rgb(252, 251, 250);
+  font-family: Butcherman;
 }
 /*/*M2LO12 Demonstrate how CSS can change presentation of page elements
  (CSS, these are styles that impact page elements rather than impacting text on the page)*/
@@ -171,12 +178,13 @@ p{
   font-size: 30px;
   font-weight: bolder;
   text-align: center;
-  font-family: 'Cedarville Cursive', cursive, 'Nosifer', cursive, 'Butcherman', cursive, 'Frijole', cursive;
+  font-family: Cedarville-Cursive;
 }
 p1{
   color: whitesmoke;
   font-size: 18px;
   font-style: normal;
+  font-family: Frijole;
 }
 
 .sidebar-bio1{
@@ -184,6 +192,7 @@ p1{
   float: left;
   width: 20%;
   color: whitesmoke;
+  font-family: Cedarville-cursive;
 }
 /*•	M3LO3 Demonstrate a clearing floats (CSS, note where you have used a clear and what its impact is)*/
 .sidebar-bio2{
@@ -191,6 +200,7 @@ p1{
   float: right;
   width: 15%;
   color: whitesmoke;
+  font-family: Cedarville-cursive;
 }
 
 /*M2LO14 Demonstrate and explain the use of
