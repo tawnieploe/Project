@@ -4,23 +4,33 @@ sheet must exist and contain CSS)*/
 note external was taken care of with M1LO8; see 2-3b Embedded Style Sheets, and 2-3c Inline Styles)*/
 @font-face{
   src: url(/Nosifer-regular.ttf);
-  font-family: nosifer;
+  font-family: 'Nosifer', cursive;
 }
 @font-face{
   src: url(/Butcherman-regular.ttf);
-  font-family: butcherman;
+  font-family: 'Butcherman', cursive;
 }
 @font-face{
   src: url(/Frijole-regular.ttf);
-  font-family: frijole;
+  font-family: 'Frijole', cursive;
 }
 @font-face{
   src: url(/Cedarville-cursive.ttf);
   font-family: 'Cedarville Cursive', cursive;
 }
-
-  @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+,style>
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
   </style> 
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Frijole&display=swap');
+</style> 
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Butcherman&family=Frijole&family=Nosifer&display=swap');
+</style>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+</style>
+ 
 
 }
 html{
