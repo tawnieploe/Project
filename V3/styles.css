@@ -212,16 +212,16 @@ p1{
   clear: right;
   float: left;
   width: 20%;
-  color: whitesmoke;
-  font-family: 'Cedarville Cursive' cursive;
+  color:rgb(252,251,250);
+  font-family: 'Frijole' cursive;
 }
 /*•	M3LO3 Demonstrate a clearing floats (CSS, note where you have used a clear and what its impact is)*/
 .sidebar-bio2{
   clear: left;
   float: right;
   width: 15%;
-  color: whitesmoke;
-  font-family: 'Cedarville Cursive' cursive;
+  color: rgb(252,251,250);
+  font-family: 'Frijole' cursive;
 }
 
 /*M2LO14 Demonstrate and explain the use of
