@@ -30,7 +30,7 @@ note external was taken care of with M1LO8; see 2-3b Embedded Style Sheets, and 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
 </style>
- 
+@import(table.css);
 
 }
 }
@@ -174,7 +174,7 @@ h2{
   font-size: 25px;
   text-transform: inherit;
   float: left;
-  font-family: 'Butcherman' cursive;
+  font-family: 'Cedarville Cursive', cursive;
 }
  /*•	M3LO2 Demonstrate floating elements (CSS, note where you have specified a floating element and what its impact is)*/
 h3{
@@ -184,7 +184,7 @@ h3{
   font-size: 25px;
   text-transform: inherit;
   float: right;
-  font-family: 'Frijole' cursive;
+  font-family: 'Cedarville Cursive', cursive;
 }
 h4{
   font-style: oblique;
@@ -213,7 +213,7 @@ p1{
   float: left;
   width: 20%;
   color:rgb(252,251,250);
-  font-family: 'Frijole' cursive;
+  font-family: 'Cedarville Cursive', cursive;
 }
 /*•	M3LO3 Demonstrate a clearing floats (CSS, note where you have used a clear and what its impact is)*/
 .sidebar-bio2{
@@ -221,7 +221,7 @@ p1{
   float: right;
   width: 15%;
   color: rgb(252,251,250);
-  font-family: 'Frijole' cursive;
+  font-family: 'Cedarville Cursive', cursive;
 }
 
 /*M2LO14 Demonstrate and explain the use of
