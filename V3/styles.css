@@ -244,7 +244,7 @@ nav{
 nav.ul{
   height: 150px;
   background-image: radial-gradient(silver, #646261, #030303);
-  padding: 8px;;
+  padding: 5px;;
 }
 /*•	M4LO4 Demonstrate the use of gradients (CSS)*/
 nav li{
