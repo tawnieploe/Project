@@ -142,16 +142,19 @@ the three in your CSS and what the impact is on the HTML)*/
   margin-top: -50px;
   position: inherited;
   overflow: auto;
+  font-family: 'frijole' cursive;
 }
 .grid-contianer1 div:nth-child(odd){
   color: rgb(128, 27,5);
   margin-top:-50;
   margin-left:150px ;
+  font-family: 'frijole' cursive;
 }
 .grid-container1 div:nth-child(even){
   color: rgb(128, 27, 5);
   margin-top: auto;
   margin-right: 150px;
+  font-family: 'frijole' cursive;
 }
 /*M2LO3 Demonstrate style precedence and inheritance in */
 /*M2LO13 Demonstrate how CSS can change presentation of textual elements
@@ -205,7 +208,7 @@ p1{
   color: whitesmoke;
   font-size: 18px;
   font-style: normal;
-  font-family: 'Cedarville Cursive' cursive;
+  font-family: 'frijoles' cursive;
 }
 
 .sidebar-bio1{
