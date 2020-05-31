@@ -33,6 +33,7 @@ note external was taken care of with M1LO8; see 2-3b Embedded Style Sheets, and 
  
 
 }
+}
 html{
   width: 100%;
 }
@@ -42,7 +43,7 @@ body{
     font-family:nosifer ;
     font-weight: normal;
     text-align: center;
-    font-family:'Nosifer', cursive, 'Butcherman', cursive, 'Frijole', cursive, 'Cedarville Cursive', cursive;
+    font-family:'Nosifer' cursive, 'Butcherman' cursive, 'Frijole' cursive, 'Cedarville Cursive' cursive;
 }
 /*•	M2LO15 Apply colors using CSS (CSS, see 2-5 Working with Color in CSS)*/
 header{
