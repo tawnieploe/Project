@@ -170,7 +170,7 @@ h1{
 }
 /*•	M4LO5 Demonstrate the use of text or box shadowing 
 (CSS, note one of these two in your CSS and explain its impact on the HTML)*/
-.h2{
+h2{
   display: inline;
   background-color: black;
   color: whitesmoke;
@@ -180,7 +180,7 @@ h1{
   font-family: 'Cedarville Cursive', cursive;
 }
  /*•	M3LO2 Demonstrate floating elements (CSS, note where you have specified a floating element and what its impact is)*/
-.h3{
+h3{
   display: inline;
   background-color: black;
   color: whitesmoke;
@@ -189,7 +189,7 @@ h1{
   float: right;
   font-family: 'Cedarville Cursive', cursive;
 }
-.h4{
+h4{
   font-style: oblique;
   font-size: 22px;
   color: rgb(152, 151, 150);
