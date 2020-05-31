@@ -42,7 +42,7 @@ body{
     font-family:nosifer ;
     font-weight: normal;
     text-align: center;
-    font-family:'Nosifer', 'Butcherman', 'Frijole', 'Cedarville-cursive';
+    font-family:'Nosifer', cursive, 'Butcherman', cursive, 'Frijole', cursive, 'Cedarville Cursive', cursive;
 }
 /*•	M2LO15 Apply colors using CSS (CSS, see 2-5 Working with Color in CSS)*/
 header{
@@ -158,7 +158,7 @@ the three in your CSS and what the impact is on the HTML)*/
 h1{
   background-color: black;
   color: rgb(128,27,5);
-  font-family:Nosifer;
+  font-family: 'Nosifer', cursive;
   text-align: center;
   font-size: 45px;
   text-shadow: rgb(255, 255, 255)2px 2px 1px,
@@ -173,7 +173,7 @@ h2{
   font-size: 25px;
   text-transform: inherit;
   float: left;
-  font-family;Butcherman;
+  font-family: 'Butcherman', cursive;
 }
  /*•	M3LO2 Demonstrate floating elements (CSS, note where you have specified a floating element and what its impact is)*/
 h3{
@@ -183,13 +183,13 @@ h3{
   font-size: 25px;
   text-transform: inherit;
   float: right;
-  font-family: Frijole;
+  font-family: 'Frijole', cursive;
 }
 h4{
   font-style: oblique;
   font-size: 22px;
   color: rgb(252, 251, 250);
-  font-family: Butcherman;
+  font-family: 'Butcherman', cursive;
 }
 /*/*M2LO12 Demonstrate how CSS can change presentation of page elements
  (CSS, these are styles that impact page elements rather than impacting text on the page)*/
@@ -199,13 +199,13 @@ p{
   font-size: 30px;
   font-weight: bolder;
   text-align: center;
-  font-family: Cedarville-Cursive;
+  font-family: 'Cedarville Cursive', cursive;
 }
 p1{
   color: whitesmoke;
   font-size: 18px;
   font-style: normal;
-  font-family: Frijole;
+  font-family: 'Frijole', cursive;
 }
 
 .sidebar-bio1{
@@ -213,7 +213,7 @@ p1{
   float: left;
   width: 20%;
   color: whitesmoke;
-  font-family: Cedarville-cursive;
+  font-family: 'Cedarville Cursive', cursive;
 }
 /*•	M3LO3 Demonstrate a clearing floats (CSS, note where you have used a clear and what its impact is)*/
 .sidebar-bio2{
@@ -221,7 +221,7 @@ p1{
   float: right;
   width: 15%;
   color: whitesmoke;
-  font-family: Cedarville-cursive;
+  font-family: 'Cedarville Cursive', cursive;
 }
 
 /*M2LO14 Demonstrate and explain the use of
@@ -257,7 +257,7 @@ nav ol{
 nav a{
   text-decoration: none;
   text-transform: uppercase;
-  font-family: butcherman;
+  font-family: 'Nosifer', cursive;;
   color: rgb(0, 0, 0);
 }
 nav a:hover{
@@ -267,13 +267,13 @@ nav a:hover{
 footer{
    text-align: center;
    margin: inherit;
-   font-family: butcherman;
+   font-family: 'Butcherman', cursive;
 }
 /*•	M2LO3 Demonstrate style precedence and inheritance in */
 
 address{
    text-align: center;
-   font-family: butcherman;
+   font-family: 'Butcherman', cursive;
 }
 /* •	M2LO7 Demonstrate a CSS attribute selector other than class or id (CSS, specify 1 time, see 2-9b Attribute selectors)*/
 .accordion {
