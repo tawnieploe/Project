@@ -2,6 +2,12 @@
 sheet must exist and contain CSS)*/
 /*•	M2LO4 Demonstrate external, embedded, and inline styles (HTML, this item should be specified 2 times, once each for embedded and inline styles;
 note external was taken care of with M1LO8; see 2-3b Embedded Style Sheets, and 2-3c Inline Styles)*/
+
+}
+font-family:
+  <script src=url('http://use.edgefonts.net/frijole.js'></script>);
+  <script src=url'http://use.edgefonts.net/cedarville-cursive.js'></script>);
+}
 html{
   width: 100%;
 }
@@ -11,6 +17,7 @@ body{
     font-family:nosifer ;
     font-weight: normal;
     text-align: center;
+    font-family
 }
 /*•	M2LO15 Apply colors using CSS (CSS, see 2-5 Working with Color in CSS)*/
 header{
@@ -164,6 +171,7 @@ p{
   font-size: 30px;
   font-weight: bolder;
   text-align: center;
+  font-family: 'Cedarville Cursive', cursive, 'Nosifer', cursive, 'Butcherman', cursive, 'Frijole', cursive;
 }
 p1{
   color: whitesmoke;
