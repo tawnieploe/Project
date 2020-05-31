@@ -159,7 +159,7 @@ the three in your CSS and what the impact is on the HTML)*/
 /*M2LO3 Demonstrate style precedence and inheritance in */
 /*M2LO13 Demonstrate how CSS can change presentation of textual elements
 (CSS, these are styles that impact text that is rendered on the page)*/
-h1{
+.h1{
   background-color: black;
   color: rgb(128,27,5);
   font-family: 'Nosifer' cursive;
@@ -170,7 +170,7 @@ h1{
 }
 /*•	M4LO5 Demonstrate the use of text or box shadowing 
 (CSS, note one of these two in your CSS and explain its impact on the HTML)*/
-h2{
+.h2{
   display: inline;
   background-color: black;
   color: whitesmoke;
@@ -180,7 +180,7 @@ h2{
   font-family: 'Cedarville Cursive', cursive;
 }
  /*•	M3LO2 Demonstrate floating elements (CSS, note where you have specified a floating element and what its impact is)*/
-h3{
+.h3{
   display: inline;
   background-color: black;
   color: whitesmoke;
@@ -189,7 +189,7 @@ h3{
   float: right;
   font-family: 'Cedarville Cursive', cursive;
 }
-h4{
+.h4{
   font-style: oblique;
   font-size: 22px;
   color: rgb(152, 151, 150);
@@ -197,14 +197,14 @@ h4{
 }
 /*/*M2LO12 Demonstrate how CSS can change presentation of page elements
  (CSS, these are styles that impact page elements rather than impacting text on the page)*/
-p{
+.p{
   color: whitesmoke;
   font-size: 30px;
   font-weight: bolder;
   text-align: center;
   font-family: 'Cedarville Cursive' cursive;
 }
-p1{
+.p1{
   color: whitesmoke;
   font-size: 18px;
   font-style: normal;
