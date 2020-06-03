@@ -31,8 +31,8 @@ note external was taken care of with M1LO8; see 2-3b Embedded Style Sheets, and 
 @import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
 </style>
 @import(table.css);
-
 }
+/*Imported from google fonts*/
 }
 html{
   width: 100%;
