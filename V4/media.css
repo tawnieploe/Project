@@ -1,0 +1,11 @@
+@charset "utf-8"
+
+/*•	M5LO3 Use media queries to format a page differently for phones vs. PCs. 
+(this will change the appearance of the page with the screen size that is viewing the page, ie phone or tablet)*/
+/*mobile styles*/
+@media only screen and(max-width: 480px){
+}
+
+/*Tablet styles*/
+@media only screen and( min-width: 481px){
+}

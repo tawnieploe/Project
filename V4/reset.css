@@ -1,0 +1,9 @@
+@charset "utf-8"
+
+address, nav a, footer{
+    font-family: 'Frijole', cursive;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
