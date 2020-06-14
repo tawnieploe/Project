@@ -1,6 +1,6 @@
 .column {
     float: left;
-    width: 33.3%;
+    width: 25%;
     margin-bottom: 16px;
     padding: 0 8px;
   }
@@ -27,7 +27,7 @@
   }
   
   .title {
-    color: grey;
+    color: rgb(252, 251, 250);
   }
   
   .button {
@@ -43,5 +43,5 @@
   }
   
   .button:hover {
-    background-color: #555;
+    background-color: rgb(128, 27, 5);
   }
