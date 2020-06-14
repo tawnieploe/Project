@@ -199,10 +199,10 @@ note external was taken care of with M1LO8; see 2-3b Embedded Style Sheets, and 
    (CSS, these are styles that impact page elements rather than impacting text on the page)*/
   p{
     color: whitesmoke;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bolder;
     text-align: center;
-    font-family: 'Cedarville Cursive' cursive;
+    font-family: 'Frijole', cursive;
   }
   p1{
     color: whitesmoke;
