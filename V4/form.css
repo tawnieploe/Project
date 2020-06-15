@@ -26,7 +26,10 @@ body{
 }
 
 .form{
-    margin-top: 50px;
+    width: 550px;
+    height: 450px;
+    margin: auto;
+    position: relative;
     transition: all 4s ease-in-out;
 }
 
