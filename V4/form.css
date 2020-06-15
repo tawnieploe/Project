@@ -60,4 +60,6 @@ form.submit:hover{
     background-color: rgb(130, 29, 7);
     cursor: pointer;
 }
-
+.textarea{
+    width: 800px;
+}
