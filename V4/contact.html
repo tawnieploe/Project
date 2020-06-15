@@ -16,6 +16,7 @@
   <link href="episodes.html" rel="text/stylesheet"/>
   <link href="flex.css" rel="stylesheet"/>
   <link href="media.css" rel="stylesheet"/>
+  <link href="form.css" rel="text/stylesheet"/>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial scale=1.0"/>
   <title> Why Are You So Scared?</title>
@@ -48,11 +49,18 @@
     <map name="ouija">
       <area shape="rect" coords="150,200,200,150" alt="spirit_board" href="ouija.jpg">
     </map>
-    <div class="contact" >
-      <div> <img src="soc.jpg" alt="soc" width="200px" height="200px"></div>
-      <!--onlineprinters on unsplash.com-->
-      <div> <img src="at.jpg" alt="at" width="200px" height="200px"></div>
-      <!--Merakist on unsplash.com-->
-    </div>
+    <div class="contact-title">
+      <h1>Have A Scary Story to Tell?</h1>
+   <div class="contact-form">
+     <form id="contact-form" method="post" action="">
+       <input name="Name" type="text" class="form-control" placeholder="Your Name" required><br>
+       <input name="Email" type="text" class="form-control" placeholder="Email Address" required><br>
+       <textarea name="Story" class="form-control" placeholder="Story" rows="100" required></textarea><br>
+       <input type="Submit" class="form-control-Submit" value="Send Story">
+      </form>
+
+     </form></div>
+
+
     </body>
     </html>

@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: image(ouija.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Nosifer,' cursive;
+}
+
+.contact-title{
+    margin-top: 250px;
+    color: rgb(128,27,5);
+    text-transform: capitalize;
+    transition: all 4s ease-in-out;
+}
+
+.contact-title h1{
+    font-size: 32px;
+    line-height: 10px;
+}
+
+.contact-title h2{
+    font-size: 16px;
+}
