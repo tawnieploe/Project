@@ -389,3 +389,10 @@ note external was taken care of with M1LO8; see 2-3b Embedded Style Sheets, and 
       padding: 30px;
       width: 100%;
   } 
+  .frame1 {
+    border: 1px solid rgb(252, 251, 250);
+    width: 30%;
+    display: block;
+    float: left;
+    height: 30%;
+  }
