@@ -287,11 +287,11 @@ note external was taken care of with M1LO8; see 2-3b Embedded Style Sheets, and 
   }
   /* •	M2LO7 Demonstrate a CSS attribute selector other than class or id (CSS, specify 1 time, see 2-9b Attribute selectors)*/
   .accordion {
-      box-sizing: border-box;
+      box-sizing: content-box;
       display: flex;
       font-family: 'Cedarville Cursive' cursive;
       overflow: hidden;
-      width: 100%;
+      width: 50%;
   }
   
   .accordion-select {
@@ -389,7 +389,7 @@ note external was taken care of with M1LO8; see 2-3b Embedded Style Sheets, and 
       padding: 30px;
       width: 100%;
   } 
-
+  .frame1 {
     .frame1:focus { 
       outline: none;
     }
