@@ -23,3 +23,36 @@ body{
 .contact-title h2{
     font-size: 16px;
 }
+
+.form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+
+.form-control{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(252, 251, 250);
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+.input{
+    height: 45px;
+}
+
+form.submit{
+    background-color: seashell;
+    border-color: transparent;
+    color: rgb(128, 27, 5);
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+form.submit:hover{
+    background-color: rgb(130, 29, 7);
+    cursor: pointer;
+}
