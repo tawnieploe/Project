@@ -291,7 +291,7 @@ note external was taken care of with M1LO8; see 2-3b Embedded Style Sheets, and 
       display: flex;
       font-family: 'Frijole', cursive;
       overflow: hidden;
-      width: 75%;
+      width: 100%;
   }
   
   .accordion-select {
