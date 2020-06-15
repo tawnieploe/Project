@@ -1,8 +1,9 @@
+/*M7LO11 Demonstrate how to format a form with CSS */
 body{
     margin: 0;
     padding: 0;
     text-align: center;
-    background-image: image(ouija.jpg);
+    background-image: image(woman.jpg);
     background-size: cover;
     background-position: center;
     font-family: 'Nosifer,' cursive;
