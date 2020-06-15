@@ -402,3 +402,10 @@ note external was taken care of with M1LO8; see 2-3b Embedded Style Sheets, and 
     .instagram-media{
       float: inherit;
     }
+    .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 50px;
+      text-align: center;
+      text-decoration: none;
+    }
