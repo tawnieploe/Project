@@ -3,7 +3,7 @@ body{
     margin: 0;
     padding: 0;
     text-align: center;
-    background-image: image(woman.jpg);
+    background-image:image(woman.jpg);
     background-size: cover;
     background-position: center;
     font-family: 'Nosifer,' cursive;
@@ -31,7 +31,7 @@ body{
 }
 
 .form-control{
-    width: 600px;
+    width: 80%;
     background: transparent;
     border: none;
     outline: none;

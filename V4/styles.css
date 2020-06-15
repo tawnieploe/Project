@@ -116,6 +116,7 @@ note external was taken care of with M1LO8; see 2-3b Embedded Style Sheets, and 
     transform: rotateX(25deg)
               translateZ(65px);
     position: absolute;
+
   }
   .mic{
     display: block;
