@@ -75,10 +75,10 @@ note external was taken care of with M1LO8; see 2-3b Embedded Style Sheets, and 
   }
   /*•	M4LO6 Demonstrate the use of opacity/transparency for images (see 4.2) (CSS)*/
   .spirit_board{
+    display: block;
     background-image: linear-gradient(ouija.jpg) 30%;
     float: left;
-    
-  
+    opacity: .75;
   }
   
   .scary_clown{
