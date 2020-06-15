@@ -389,7 +389,7 @@ note external was taken care of with M1LO8; see 2-3b Embedded Style Sheets, and 
       padding: 30px;
       width: 100%;
   } 
-  .frame1 {
+  .frame {
     .frame1:focus { 
       outline: none;
     }
