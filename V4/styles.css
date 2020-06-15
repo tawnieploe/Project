@@ -289,9 +289,10 @@ note external was taken care of with M1LO8; see 2-3b Embedded Style Sheets, and 
   .accordion {
       box-sizing: content-box;
       display: flex;
-      font-family: 'Cedarville Cursive' cursive;
+      font-family: 'Frijole', cursive;
       overflow: hidden;
       width: 50%;
+      align-items: center;
   }
   
   .accordion-select {
