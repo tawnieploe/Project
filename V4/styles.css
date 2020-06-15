@@ -397,7 +397,7 @@ note external was taken care of with M1LO8; see 2-3b Embedded Style Sheets, and 
       outline: none;
     }
     
-    iframe[seamless] { 
+    .iframe[seamless] { 
       display: block;
     }
     /*M8LO9  Demonstrate the use of the iframe element (HTML)*/
