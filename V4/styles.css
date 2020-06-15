@@ -286,6 +286,7 @@ note external was taken care of with M1LO8; see 2-3b Embedded Style Sheets, and 
      font-family: 'Frijole', cursive;
   }
   /* •	M2LO7 Demonstrate a CSS attribute selector other than class or id (CSS, specify 1 time, see 2-9b Attribute selectors)*/
+ /*M8LO10 Demonstrate a CSS animation or transition */
   .accordion {
       box-sizing: border-box;
       display: flex;

@@ -32,7 +32,7 @@ body{
     position: relative;
     transition: all 4s ease-in-out;
 }
-
+/*M8LO10 Demonstrate a CSS animation or transition */
 .form-control{
     width: 960px;
     background: transparent;
