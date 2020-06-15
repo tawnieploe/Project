@@ -229,7 +229,10 @@ note external was taken care of with M1LO8; see 2-3b Embedded Style Sheets, and 
     font-family: 'Cedarville Cursive', cursive;
     font-size: 30px;
   }
-  
+  .article{
+    font-family: 'Frijole',cursive;
+    font-size: 10px;
+  }
   /*M2LO14 Demonstrate and explain the use of
   progressive enhancement in CSS (CSS, see 2-6 Employing Progressive Enhancement)*/
   /* Visited Link */
