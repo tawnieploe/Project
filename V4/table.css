@@ -23,7 +23,7 @@
 }
 table {
 	background: black;
-	border: 8px solid rgb(152, 151, 150);
+	border: 4px solid rgb(152, 151, 150);
 	
 }
 th td {
@@ -47,14 +47,14 @@ td {
 }
 /* Column Styles */
 col#firstCol {
-	width: 12%;
+	width: 8%;
 }
 col.dataCols {
-	width: 12%;
+	width: 8%;
 }
 /* Table Header Styles */
 table thead tr {
-	height: 12px;
+	height: 10px;
 }
 table thead tr:first-of-type th:first-of-type {
 	font-size: 2em;
