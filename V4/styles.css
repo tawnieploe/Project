@@ -149,15 +149,15 @@ note external was taken care of with M1LO8; see 2-3b Embedded Style Sheets, and 
   }
   .grid-contianer1 div:nth-child(odd){
     color: rgb(128, 27,5);
-    margin-top:-50;
+    margin-top:250px;
     margin-left:150px ;
-    font-family: 'frijole' cursive;
+    font-family: 'Frijole', cursive;
   }
   .grid-container1 div:nth-child(even){
     color: rgb(128, 27, 5);
-    margin-top: auto;
+    margin-top: 250px;
     margin-right: 150px;
-    font-family: 'frijole' cursive;
+    font-family: 'Frijole', cursive;
   }
   /*M2LO3 Demonstrate style precedence and inheritance in */
   /*M2LO13 Demonstrate how CSS can change presentation of textual elements
