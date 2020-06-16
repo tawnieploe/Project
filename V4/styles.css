@@ -149,14 +149,13 @@ note external was taken care of with M1LO8; see 2-3b Embedded Style Sheets, and 
   }
   .grid-contianer1 div:nth-child(odd){
     color: rgb(128, 27,5);
-    padding: 0px;
-    margin-top:10%;
+    margin-top:auto;
     margin-left: auto;
     font-family: 'Frijole', cursive;
   }
   .grid-container1 div:nth-child(even){
     color: rgb(128, 27, 5);
-    margin-top: 10%;
+    margin-top: auto;
     margin-right: auto;
     font-family: 'Frijole', cursive;
   }
