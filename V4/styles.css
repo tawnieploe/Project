@@ -145,7 +145,7 @@ note external was taken care of with M1LO8; see 2-3b Embedded Style Sheets, and 
     margin-top: -50px;
     position: inherited;
     overflow: auto;
-    font-family: 'frijole' cursive;
+    font-family: 'frijole', cursive;
   }
   .grid-contianer1 div:nth-child(odd){
     color: rgb(128, 27,5);
