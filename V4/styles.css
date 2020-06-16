@@ -152,7 +152,7 @@ note external was taken care of with M1LO8; see 2-3b Embedded Style Sheets, and 
     margin-top:auto;
     margin-left: auto;
     font-family: 'Frijole', cursive;
-    text-align: left;
+    text-align: right;
   }
   .grid-container1 div:nth-child(even){
     color: rgb(128, 27, 5);
