@@ -151,13 +151,13 @@ note external was taken care of with M1LO8; see 2-3b Embedded Style Sheets, and 
     color: rgb(128, 27,5);
     padding: 0px;
     margin-top:20%;
-    margin-left:45% ;
+    margin-left:10% ;
     font-family: 'Frijole', cursive;
   }
   .grid-container1 div:nth-child(even){
     color: rgb(128, 27, 5);
     margin-top: 20%;
-    margin-right: 45%;
+    margin-right: 10%;
     font-family: 'Frijole', cursive;
   }
   /*M2LO3 Demonstrate style precedence and inheritance in */
