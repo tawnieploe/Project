@@ -406,10 +406,10 @@ note external was taken care of with M1LO8; see 2-3b Embedded Style Sheets, and 
     .instagram-media{
       float: inherit;
     }
-   .mail a {
+   .sidebar_content .mail a {
      color: rgb(252,251,250);
    }
 
-   .mail a:hover{
+   .sidebar_content .mail a:hover{
      color: rgb(128, 27, 5);
    }
